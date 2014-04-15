@@ -14,7 +14,14 @@
       }
       
       ul.menu { display: block; text-align:center; }
-      ul.menu li { display: inline-block; font-size: 2em; text-transform: uppercase; }
+      ul.menu li { 
+      display: inline-block; 
+      text-transform: uppercase; 
+      padding-right: 10px;
+      padding-left: 10px;
+      border-right: 2px solid black; 
+      }
+      ul.menu li.last { border-right: 0px; }
       
     --></style>
   </head>
@@ -23,7 +30,7 @@
   <ul class="menu">
     <li>About</li>
     <li>Survival Guide</li>
-    <li>Get Involved</li>
+    <li class="last">Get Involved</li>
   </ul>
 </body>
 </html>
